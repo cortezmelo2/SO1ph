@@ -1,0 +1,47 @@
+Var
+/ / Seção de comandos 
+cel, fah: inteiro 
+inicio
+/ / Seção de comandos 
+/ / Algoritmo que mostre a conversão de Fahenheit 
+/ / para Celsius de 50 a 100 
+para fah de 50 a 100 faca
+cel= (5/9) * (fah-32) 
+escreva " A temperatura " , fah Fahenheit equivale a
+temperatura de : " , cel
+fimpara
+fim_algoritmo
+
+Var
+/ / Seção de comandos 
+numj og , i: inteiro 
+alt, soma, m: real 
+inicio
+/ / Seção de comandos 
+/ / Algoritmo que Leia um valor correspondente ao 
+/ / número de jogadores, deve ler a altura de cada um 
+/ / e informar a altura média do time 
+soma<- 0 
+escreva (“ digite o número de jogadores: “) 
+Leia ( numjog) 
+para i de 1 ate numjog faca
+Escreval (" A altura do , i , jogador ") 
+leia(alt) 
+soma<- soma + alt
+fimpara
+m<-soma/numjog
+escreval (" A altura do time: “ , m)
+Fim_alg
+
+var 
+numero : real 
+ímpar , par : caractere 
+Inicio
+escreval (" Digite um número ") 
+Leia (número) 
+se número <- ímpar 
+Entao
+escreval (" Esse número é ímpar ") 
+senao
+escreval (" Esse número é par ") 
+fim_algoritmo
