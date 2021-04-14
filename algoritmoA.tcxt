@@ -34,14 +34,14 @@ escreval (" A altura do time: “ , m)
 Fim_alg
 
 var 
-numero : real 
-ímpar , par : caractere 
+numero : inteiro
 Inicio
-escreval (" Digite um número ") 
-Leia (número) 
-se número <- ímpar 
-Entao
-escreval (" Esse número é ímpar ") 
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval (" Digite um numero ")
+Leia (numero)
+se numero mod 2 = 0 entao
+escreval ("par")
 senao
-escreval (" Esse número é par ") 
+escreval ("impar")
+fimse
 fim_algoritmo
