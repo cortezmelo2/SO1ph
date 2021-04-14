@@ -15,4 +15,4 @@ Instalar o Git local e criar uma conta no Github.
 
 ##Adicionando imagem no README.md
 
-![](algoritmo. PNG)
+![](algoritmo.png)
